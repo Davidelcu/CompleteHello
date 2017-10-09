@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everithing</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <configuration>
+                                <children>
+                                    <Luca_Helloworld>
+                                        
+                                    </Luca_Helloworld>
+                                </children>
+                            </configuration>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
