@@ -1,0 +1,11 @@
+<?php if (Mage::helper("luca_helloworld")->isEnabled()) : ?>
+<div class="block">
+    <div class="block-title">
+        <strong><?php echo $this->__('Hello World Module Sidebar')?></strong>
+    </div>
+    <div class="col-right sidebar">
+        <p><?php echo $this->__('Your custom message:')?></p>
+        <b><?php echo $this->getMessage(); ?></b>
+    </div>
+</div>
+<?php endif; ?>

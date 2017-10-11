@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <default>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-right.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="luca_helloworld/helloworld" name="hello.body.content" template="luca_helloworld/content.phtml" />
+        </reference>
+        <reference name="right">
+            <block type="luca_helloworld/helloworld" name="hello.side.right" template="luca_helloworld/hellorightbar.phtml" />
+        </reference>
+    </default>
+</layout>
